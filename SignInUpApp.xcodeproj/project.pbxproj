@@ -10,6 +10,8 @@
 		712146F82A952B1D0068484E /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712146F72A952B1D0068484E /* SignInVC.swift */; };
 		712146FB2A952B310068484E /* SignUpStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 712146F92A952B310068484E /* SignUpStoryboard.storyboard */; };
 		712146FC2A952B310068484E /* SignInStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 712146FA2A952B310068484E /* SignInStoryboard.storyboard */; };
+		712146FE2A9536FB0068484E /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712146FD2A9536FB0068484E /* CreateAccountVC.swift */; };
+		712147012A953D510068484E /* UIVIewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712147002A953D510068484E /* UIVIewControllerExt.swift */; };
 		71659BDB2A95226000B7DF4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71659BDA2A95226000B7DF4B /* AppDelegate.swift */; };
 		71659BDD2A95226000B7DF4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71659BDC2A95226000B7DF4B /* SceneDelegate.swift */; };
 		71659BE22A95226000B7DF4B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71659BE02A95226000B7DF4B /* MainStoryboard.storyboard */; };
@@ -21,6 +23,8 @@
 		712146F72A952B1D0068484E /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		712146F92A952B310068484E /* SignUpStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignUpStoryboard.storyboard; sourceTree = "<group>"; };
 		712146FA2A952B310068484E /* SignInStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignInStoryboard.storyboard; sourceTree = "<group>"; };
+		712146FD2A9536FB0068484E /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		712147002A953D510068484E /* UIVIewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIewControllerExt.swift; sourceTree = "<group>"; };
 		71659BD72A95226000B7DF4B /* SignInUpApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignInUpApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71659BDA2A95226000B7DF4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71659BDC2A95226000B7DF4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		712146FF2A953D2C0068484E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				712147002A953D510068484E /* UIVIewControllerExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		71659BCE2A95226000B7DF4B = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +72,7 @@
 		71659BD92A95226000B7DF4B /* SignInUpApp */ = {
 			isa = PBXGroup;
 			children = (
+				712146FF2A953D2C0068484E /* Extensions */,
 				71659BF42A95286B00B7DF4B /* Controllers */,
 				71659BEE2A95234100B7DF4B /* Views */,
 				71659BE32A95226000B7DF4B /* Assets.xcassets */,
@@ -93,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				712146F72A952B1D0068484E /* SignInVC.swift */,
+				712146FD2A9536FB0068484E /* CreateAccountVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -170,8 +184,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				712147012A953D510068484E /* UIVIewControllerExt.swift in Sources */,
 				71659BDB2A95226000B7DF4B /* AppDelegate.swift in Sources */,
 				71659BDD2A95226000B7DF4B /* SceneDelegate.swift in Sources */,
+				712146FE2A9536FB0068484E /* CreateAccountVC.swift in Sources */,
 				712146F82A952B1D0068484E /* SignInVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

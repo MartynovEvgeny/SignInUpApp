@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SignInVC: UIViewController {
+class SignInVC: BaseViewController {
     
     @IBOutlet weak var emailTF: UITextField!
     @IBOutlet weak var passTF: UITextField!
@@ -36,4 +36,10 @@ class SignInVC: UIViewController {
     }
     */
 
+}
+
+/// продолжение нашего класса
+/// в extension могут быть только методы
+extension SignInVC {
+    
 }
