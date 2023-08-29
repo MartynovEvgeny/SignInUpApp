@@ -25,7 +25,6 @@ class VerificationsVC: BaseViewController {
         startKeyboardObserver()
     }
     
-    
     @IBAction func codeTFAction(_ sender: UITextField) {
         errorCodeLbl.isHidden = true
         guard let text = sender.text,
@@ -36,6 +35,7 @@ class VerificationsVC: BaseViewController {
             sender.isUserInteractionEnabled = false
             errorCodeLbl.text = "Error code. Please wait \(sleepTime) seconds"
             
+            /// это пока не знаем (будущие лекции)
             let dispatcAfter = DispatchTimeInterval.seconds(sleepTime)
             let deadline = DispatchTime.now() + dispatcAfter
             DispatchQueue.main.asyncAfter(deadline: deadline) {

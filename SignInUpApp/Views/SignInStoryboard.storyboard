@@ -31,6 +31,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Sign In"/>
+                                <connections>
+                                    <action selector="signInAction" destination="Y6W-OH-hqX" eventType="touchUpInside" id="0V6-V6-CNg"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="hIQ-wQ-loc">
                                 <rect key="frame" x="25" y="291.33333333333331" width="343" height="238.33333333333331"/>

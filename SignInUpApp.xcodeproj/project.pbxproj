@@ -21,6 +21,10 @@
 		71659BE22A95226000B7DF4B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71659BE02A95226000B7DF4B /* MainStoryboard.storyboard */; };
 		71659BE42A95226000B7DF4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71659BE32A95226000B7DF4B /* Assets.xcassets */; };
 		71659BE72A95226000B7DF4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71659BE52A95226000B7DF4B /* LaunchScreen.storyboard */; };
+		71F4B0482A9E55390006AB5E /* UserDafultsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F4B0472A9E55380006AB5E /* UserDafultsService.swift */; };
+		71F4B04A2A9E565E0006AB5E /* UserDefaultsExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F4B0492A9E565E0006AB5E /* UserDefaultsExt.swift */; };
+		71F4B04C2A9E60580006AB5E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F4B04B2A9E60580006AB5E /* TabBarController.swift */; };
+		71F4B04E2A9E646C0006AB5E /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F4B04D2A9E646C0006AB5E /* ProfileVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		71659BE32A95226000B7DF4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71659BE62A95226000B7DF4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71659BE82A95226000B7DF4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71F4B0472A9E55380006AB5E /* UserDafultsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDafultsService.swift; sourceTree = "<group>"; };
+		71F4B0492A9E565E0006AB5E /* UserDefaultsExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExt.swift; sourceTree = "<group>"; };
+		71F4B04B2A9E60580006AB5E /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		71F4B04D2A9E646C0006AB5E /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				712147002A953D510068484E /* UIVIewControllerExt.swift */,
+				71F4B0492A9E565E0006AB5E /* UserDefaultsExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -65,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				712695EB2A97BE26006D321F /* VerificationService.swift */,
+				71F4B0472A9E55380006AB5E /* UserDafultsService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -135,6 +145,8 @@
 				712146FD2A9536FB0068484E /* CreateAccountVC.swift */,
 				712695F02A97CF25006D321F /* VerificationsVC.swift */,
 				712695F22A97DD3A006D321F /* WelcomeVC.swift */,
+				71F4B04B2A9E60580006AB5E /* TabBarController.swift */,
+				71F4B04D2A9E646C0006AB5E /* ProfileVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -216,9 +228,13 @@
 				712695EF2A97CD3F006D321F /* UserModel.swift in Sources */,
 				71659BDB2A95226000B7DF4B /* AppDelegate.swift in Sources */,
 				712695EC2A97BE26006D321F /* VerificationService.swift in Sources */,
+				71F4B04A2A9E565E0006AB5E /* UserDefaultsExt.swift in Sources */,
 				71659BDD2A95226000B7DF4B /* SceneDelegate.swift in Sources */,
 				712146FE2A9536FB0068484E /* CreateAccountVC.swift in Sources */,
+				71F4B0482A9E55390006AB5E /* UserDafultsService.swift in Sources */,
+				71F4B04E2A9E646C0006AB5E /* ProfileVC.swift in Sources */,
 				712695F32A97DD3A006D321F /* WelcomeVC.swift in Sources */,
+				71F4B04C2A9E60580006AB5E /* TabBarController.swift in Sources */,
 				712146F82A952B1D0068484E /* SignInVC.swift in Sources */,
 				712695F12A97CF25006D321F /* VerificationsVC.swift in Sources */,
 			);
