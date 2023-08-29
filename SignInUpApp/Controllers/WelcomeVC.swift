@@ -19,7 +19,8 @@ class WelcomeVC: UIViewController {
     }
     
     @IBAction func continueAction() {
-        //TODO: sava data
+        guard let userModel = userModel else { return }
+        UserDafultsService.saveUserModel(userModel: userModel)
         navigationController?.popToRootViewController(animated: true)
     }
     
